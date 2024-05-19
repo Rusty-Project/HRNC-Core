@@ -1,6 +1,8 @@
 package com.rusty.hrnhcore;
 
 import com.mojang.logging.LogUtils;
+import com.rusty.hrnhcore.block.BlockRegistry;
+import com.rusty.hrnhcore.item.ItemRegistry;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,6 +20,10 @@ public class HrCore {
 
     public HrCore() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ItemRegistry.register(modEventBus);
+        BlockRegistry.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }

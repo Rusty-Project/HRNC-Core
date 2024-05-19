@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hrnhcore:item/materials/raw_ore_vanadium",
+    "layer1": "hrnhcore:item/materials/raw_ore_secondary"
+  }
+}

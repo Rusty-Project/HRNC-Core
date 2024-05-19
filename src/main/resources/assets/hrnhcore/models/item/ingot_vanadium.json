@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hrnhcore:item/materials/ingot_vanadium",
+    "layer1": "hrnhcore:item/materials/ingot_secondary",
+    "layer2": "hrnhcore:item/materials/ingot_overlay"
+  }
+}
