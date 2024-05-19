@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hrnhcore:block/materials/ore_deepslate_vanadium"
+  }
+}
